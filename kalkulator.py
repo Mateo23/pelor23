@@ -1,11 +1,9 @@
-def dodawanie():
-    
+def dodawanie(a, b):
     return a + b
-
 
 print('Podaj pierwszą liczbę:')
 a = int(input())
 print('Podaj druga liczbę:')
 b = int(input())
 
-dodawanie()
+print(dodawanie(a, b))
